@@ -1,4 +1,4 @@
-module github.com/Djarvur/protoc-gen-python-grpc
+module github.com/fsodogandji/protoc-gen-python-grpc
 
 go 1.23
 
