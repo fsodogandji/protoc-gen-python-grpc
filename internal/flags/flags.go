@@ -4,7 +4,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/Djarvur/protoc-gen-python-grpc/internal/flags/template"
+	"github.com/fsodogandji/protoc-gen-python-grpc/internal/flags/template"
 )
 
 type Flags struct {
