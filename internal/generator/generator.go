@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/Djarvur/protoc-gen-python-grpc/internal/flags"
+	"github.com/fsodogandji/protoc-gen-python-grpc/internal/flags"
 )
 
 type ProtoFile struct {
