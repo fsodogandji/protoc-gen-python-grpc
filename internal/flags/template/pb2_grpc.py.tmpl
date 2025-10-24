@@ -6,7 +6,7 @@ import grpc
 {{- $Package  := .Package -}}
 {{- $FileName := .Name -}}
 {{- $Alias    := join "" ($Package | replace  "_" "__" | replace "." "_dot_") "_dot_" ($FileName | baseName "/" | trimSuffix ".") "__pb2" -}}
-from {{$Package}} import {{baseName "/" $FileName | trimSuffix "."}}_pb2 as {{$Alias}}
+from . import {{baseName "/" $FileName | trimSuffix "."}}_pb2 as {{$Alias}}
 
 {{range $Service := .Services}}
 class {{$Service.Name}}Stub(object):
