@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/Djarvur/protoc-gen-python-grpc/internal/flags/template/strings"
+	"github.com/fsodogandji/protoc-gen-python-grpc/internal/flags/template/strings"
 )
 
 //go:embed pb2_grpc.py.tmpl
