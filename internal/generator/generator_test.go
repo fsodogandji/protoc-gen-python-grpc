@@ -8,7 +8,7 @@ import (
 	"github.com/Djarvur/protokit"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Djarvur/protoc-gen-python-grpc/internal/generator"
+	"github.com/fsodogandji/protoc-gen-python-grpc/internal/generator"
 )
 
 var (
